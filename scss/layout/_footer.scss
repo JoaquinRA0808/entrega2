@@ -1,0 +1,17 @@
+footer{
+    margin-top: 10px;
+    display: grid;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: $fondoAzul;
+}
+.icono{
+    max-width: 32px;
+    height: auto;
+    margin: 5px;
+}
+.redesSociales{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+}

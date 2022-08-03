@@ -1,0 +1,17 @@
+@import "./utilities/variables";
+@import "./layout/header";
+@import "./layout/footer";
+
+
+
+body{
+    font-family: $letraComun;
+    background-image:white;
+    min-height: 100vh;
+    width: 100%;
+    /*font-family: 'Dosis', sans-serif;*/
+    background-color: $fondoBlanco;
+}
+
+
+    

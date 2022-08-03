@@ -14,9 +14,7 @@
     background-color: white;
     color: white;
 }
-.card-body{
-    text-align: center;
-}
+
 body{
     background-image:white;
     min-height: 100vh;
@@ -68,7 +66,7 @@ p{
 .nav-item a{
     color: blue;
     text-decoration: none;
-}
+}*/
 
 .galeriaGrid{
     display: grid;
