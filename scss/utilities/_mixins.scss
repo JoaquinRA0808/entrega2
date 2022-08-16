@@ -1,0 +1,10 @@
+@mixin medidas {
+    width: 100%;
+    height: auto;
+    
+}
+
+@mixin color1 {
+    color: $textoBlanco;
+    text-decoration: none;
+}

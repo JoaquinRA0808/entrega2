@@ -2,6 +2,13 @@
 /*  font-family: 'Kristi', cursive;  */
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&display=swap");
 /*  font-family: 'Dosis', sans-serif;  */
+h6, h5 {
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+  text-align: center;
+}
+
 .preHeader--item {
   display: flex;
   flex-wrap: nowrap;
@@ -70,6 +77,13 @@ p {
 img {
   width: 100%;
   height: auto;
+}
+
+h6, h5 {
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+  text-align: center;
 }
 
 footer {

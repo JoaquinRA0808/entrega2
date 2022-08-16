@@ -38,16 +38,14 @@ p{
 .nombreNavbar{
     font-family: $letraCursiva;
     font-size: xx-large;
-    color: $textoBlanco;
-    text-decoration: none;
+    @include color1
 }
 .header{
     background-color: $fondoAzul;
 }
 .nav-item {
     a{
-    color: $textoBlanco;
-    text-decoration: none;
+    @include color1
     }
 }
 
@@ -66,6 +64,16 @@ p{
     }
 }
 img{
-    width: 100%;
-    height: auto;
+    @include medidas
+}
+
+h6{
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+
+h5{
+    @extend h6
 }
