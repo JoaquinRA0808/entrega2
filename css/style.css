@@ -2,7 +2,7 @@
 /*  font-family: 'Kristi', cursive;  */
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&display=swap");
 /*  font-family: 'Dosis', sans-serif;  */
-h6, h5 {
+h1, h2 {
   color: white;
   background-color: blue;
   text-decoration: none;
@@ -79,11 +79,12 @@ img {
   height: auto;
 }
 
-h6, h5 {
+h1, h2 {
   color: white;
   background-color: blue;
   text-decoration: none;
   text-align: center;
+  font-size: small;
 }
 
 footer {
