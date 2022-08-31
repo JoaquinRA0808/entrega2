@@ -88,12 +88,13 @@ p{
     transition-duration: 2s;
     transition: all 2s;
     transform: scale(1);
-    margin-top: 20px;
+    border-radius: 20%;
 }
 
 img{
     width: 100%;
     height: auto;
+    border-radius: 2s;
 }
 
 .icono{
