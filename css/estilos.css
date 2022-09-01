@@ -24,6 +24,7 @@ body{
 }
 .header{
     background-color:blue;
+    border-color: white;
 }
 
 .preHeader--item{
@@ -66,7 +67,11 @@ p{
 .nav-item a{
     color: blue;
     text-decoration: none;
-}*/
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: white;
+}
 
 .galeriaGrid{
     display: grid;
@@ -189,6 +194,22 @@ h1{
         display: grid;
         background: white;
     }
+
+    .navbar-light .navbar-nav .nav-link.active{
+        color: white;
+    }
+    
+    .navbar-light .navbar-toggler{
+        color: white;
+    }
+
+    .icono {
+        max-width: 32px;
+        height: auto;
+        margin: 5px;
+        color: white;
+      }
+
     .padre{
         background:white;
         background: white;
@@ -213,6 +234,22 @@ h1{
         display: grid;
         background: white;
     }
+
+    .navbar-light .navbar-nav .nav-link.active{
+        color: white;
+    }
+    
+    .navbar-light .navbar-toggler{
+        color: white;
+    }
+
+    .icono {
+        max-width: 32px;
+        height: auto;
+        margin: 5px;
+        color: white;
+      }
+
     .padre{
         background:white;
         background: white;
